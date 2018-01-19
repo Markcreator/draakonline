@@ -12,11 +12,21 @@ $(function() {
 	// Carousel resizing
 	$(window).on('resize.carousel', resizeCarousel);
 	function resizeCarousel() {
-		$("#carousel").height($(window).height());
+		$(".carousel").height($(window).height());
 	}
 	resizeCarousel();
 	
-	//Swiping
+	// Keyboard navigation
+	$(document).keypress(function(e) {		
+		if(e.keyCode == 37) {
+			$(".carousel").carousel("prev");
+		}
+		if(e.keyCode == 39) {
+			$(".carousel").carousel("next");
+		}
+	});
+	
+	// Swiping
 	var startX;
 	var startY;
 	var threshold = 50;
