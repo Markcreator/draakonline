@@ -9,10 +9,16 @@
 
 /* Formatting */
 body, html {
-	height: 100%;
-	overflow: hidden;
-	
 	color: var(--text-color);
+	background-color: var(--bg-color);
+}
+
+.header {
+	top: 0;
+	height: 100px;
+	position: fixed;
+	width: 100%;
+	z-index: 1000;
 }
 
 .abs {
@@ -26,8 +32,11 @@ body, html {
 }
 
 .white-border {
-	border-top: 1px solid white;
-	border-bottom: 1px solid white;
+	border: 1px solid white;
+}
+
+.card-project {
+	width: 70%;
 }
 
 /* Text */

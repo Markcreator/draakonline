@@ -32,10 +32,10 @@
 		</script>
 	</head>
 	
-	<body class="noselect">
-		<div id="carousel" class="carousel carousel-slider center">
+	<body >
+		<div class="center">
 			<!-- Header -->
-			<div class="carousel-fixed-item hide-on-small-only" style="top: 0; height: 100px;">
+			<div class="hide-on-small-only header">
 				<div class="card transparent hoverable" style="margin-top: 0;">
 					<div class="abs">
 						<img src="img/logo.png" class="left" style="height: 100%;"/>
@@ -49,109 +49,82 @@
 				</div>
 			</div>
 		
-			<!-- Main page -->
-			<div class="carousel-item bg white-text">
-				<!-- Header spacer -->
-				<div class="hide-on-small-only" style="height: 100px;">
-				</div>
-				
-				<!-- Welcome -->
-				<h1 class="hide-on-med-and-down" style="font-weight: 200;">Welcome!</h1>
-				
-				<div style="margin-top: 1em;">
-					<span class="flow-text">Welcome to Draak.Online! A web portal hosting a variety of tools and services for the benefit of our visitors and community members.</span>
-				</div>
-				
-				<br/>
-				<div class="hide-on-med-and-down" style="height: 5vh"></div>
-				
-				<!-- Swipe -->
-				<div class="row valign-wrapper">
-					<div class="col s2 right-align">
-						<a class="material-icons green-text" href="#" onclick='$(".carousel").carousel("prev");'>arrow_back</a>
+			<div id="content" class="container">
+				<!-- Main page -->
+				<div class="bg white-text">
+					<!-- Header spacer -->
+					<div class="hide-on-small-only" style="height: 100px;">
 					</div>
-					<div class="col s8">
-						<span class="flow-text green-text" style="font-weight: 400;">Feel free to swipe left and right to explore what we are currently offering!</span>
-					</div>
-					<div class="col s2 left-align">
-						<a class="material-icons green-text" href="#" onclick='$(".carousel").carousel("next");'>arrow_forward</a>
-					</div>
-				</div>
-				
-				<div class="hide-on-med-and-down" style="height: 5vh"></div>
-				
-				<!-- Donate -->
-				<div class="card transparent hoverable white-border">
-					<div class="card-content">
-						<span class="flow-text" style="font-weight: 400;">All of our projects are funded by our amazing community members, please consider supporting us!</span>
-						
+					
+					<!-- Welcome -->
+					<h1 style="font-weight: 500;">Welcome!</h1>
+					
+					<div style="margin-top: 1em;">
+						<span class="flow-text">Welcome to Draak.Online! This is my small piece of the internet where I link to my projects.</span>
 						<br/>
-						
-						<a style="margin-top: 1em;" class="btn light-blue hoverable waves-effect" target="_blank" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=2C3ZXGNTS8W8G">Donate</a>
+						<span class="flow-text">I hope you find something you like! -Mark</span>
+					</div>
+					
+					<br/>
+							
+					<!-- Donate -->
+					<span class="flow-text" style="font-weight: 400;">All of my projects are exclusively funded by your amazingly generous donations, please consider supporting me!</span>
+					
+					<br/>
+					
+					<a style="margin-top: 1em;" class="btn light-blue hoverable waves-effect" target="_blank" href="https://ko-fi.com/nexel">Donate</a>
+				</div>
+				
+				<!-- Acolyte -->
+				<div class="left" style="width: 100%;">
+					<div style="height: 5vh;"></div>
+
+					<div class="card card-project hoverable white-border red white-text left">
+						<div class="card-content">
+							<h1 style="font-weight: 200;">Acolyte Tracker</h1>
+							<span class="flow-text">
+								Tired of sitting in front of your PC, constantly updating the dodgy Warframe navigation menu in an attempt to stay up to date with the Acolytes?
+								<br><br>
+								Acolyte Tracker will automatically fetch the latest in Acolyte developments straight to your browser, on any device!
+							</span>
+							
+							<br/>
+							
+							<a style="margin-top: 2em;" class="btn white grey-text text-darken-2 hoverable waves-effect" target="_blank" href="https://acolyte.draak.online/">Visit</a>
+						</div>
+					</div>					
+				</div>
+				
+				<!-- Anomaly -->
+				<div class="right" style="width: 100%;">
+					<div style="height: 5vh;"></div>
+					
+					<div class="card card-project hoverable white-border green white-text right">
+						<div class="card-content">
+							<h1 style="font-weight: 200;">Anomaly Tracker</h1>
+							<span class="flow-text">
+								Anomaly Tracker allows you to see the latest location of the Sentient Anomaly without having wait in-game for it to show up.
+								<br><br>
+								It will automatically fetch the latest Anomaly information straight to your browser, on any device!
+							</span>
+							
+							<br/>
+							
+							<a style="margin-top: 2em;" class="btn white grey-text text-darken-2 hoverable waves-effect" target="_blank" href="https://anomaly.draak.online/">Visit</a>
+						</div>
 					</div>
 				</div>
-			</div>
-			
-			<!-- Acolyte -->
-			<div class="carousel-item red darken-3 white-text">
-				<!-- Header spacer -->
-				<div class="hide-on-small-only" style="height: 100px;">
+				
+				<div class="left" style="width: 100%;">
+					<div style="height: 5vh;"></div>
+					
+					<div class="card card-project hoverable white-border blue white-text left">
+						<div class="card-content">
+							<h1 style="font-weight: 200;">More coming soon!</h1>
+						</div>
+					</div>					
 				</div>
-				
-				<h1 style="font-weight: 200;">Acolyte Tracker</h1>
-				<span class="flow-text">
-					Tired of sitting in front of your PC, constantly updating the dodgy Warframe navigation menu in an attempt to stay up to date with the Acolytes?
-					<br><br>
-					Acolyte Tracker will automatically fetch the latest in Acolyte developments straight to your browser, on any device!
-				</span>
-				
-				<br/>
-				
-				<a style="margin-top: 2em;" class="btn white grey-text text-darken-2 hoverable waves-effect" target="_blank" href="https://acolyte.draak.online/">Visit</a>
 			</div>
-			
-			<!-- Anomaly -->
-			<div class="carousel-item green darken-3 white-text">
-				<!-- Header spacer -->
-				<div class="hide-on-small-only" style="height: 100px;">
-				</div>
-				
-				<h1 style="font-weight: 200;">Anomaly Tracker</h1>
-				<span class="flow-text">
-					Anomaly Tracker allows you to see the latest location of the Sentient Anomaly without having wait in-game for it to show up.
-					<br><br>
-					It will automatically fetch the latest Anomaly information straight to your browser, on any device!
-				</span>
-				
-				<br/>
-				
-				<a style="margin-top: 2em;" class="btn white grey-text text-darken-2 hoverable waves-effect" target="_blank" href="https://anomaly.draak.online/">Visit</a>
-			</div>
-			
-			<div class="carousel-item yellow darken-3 white-text">-->
-				<!-- Header spacer -->
-				<div class="hide-on-small-only" style="height: 100px;">
-				</div>
-				
-				<h1 style="font-weight: 200;">More coming soon!</h1>
-			</div>
-			
-			<!-- Relic Browser -->
-			<!--<div class="carousel-item yellow darken-3 white-text">-->
-				<!-- Header spacer -->
-				<!--<div class="hide-on-small-only" style="height: 100px;">
-				</div>
-				
-				<h1 style="font-weight: 200;">Relic Browser</h1>
-				
-				<img src="img/relic.png" style="height: 25%; width: auto;"></img>
-				
-				<br/>
-				
-				<span class="flow-text">
-					Coming soon!
-				</span>
-			</div>-->
 		</div>
 		
 		<!-- Javascript -->
